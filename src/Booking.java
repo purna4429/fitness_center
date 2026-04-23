@@ -12,7 +12,7 @@ public class Booking {
         this.bookingId = idCounter++;
         this.member = member;
         this.lesson = lesson;
-        this.status = Status.BOOKED;
+        
     }
 
     public static void resetIdCounter() { idCounter = 1; }
