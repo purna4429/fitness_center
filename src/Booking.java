@@ -6,7 +6,7 @@ public class Booking {
     private final int bookingId;
     private final Member member;
     private Lesson lesson;
-    private Status status;
+ 
 
     public Booking(Member member, Lesson lesson) {
         this.bookingId = idCounter++;
