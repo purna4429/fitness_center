@@ -33,7 +33,7 @@ public class BookingSystem {
         makeBooking("Kiran",  31); makeBooking("Deepak", 32); makeBooking("Meera",  33);
         makeBooking("Arjun",  34);
 
-        attend("Aarav",  1,  5, "Loved the Yoga session!");
+        
         attend("Aarav",  4,  4, "Zumba is so fun and energetic.");
         attend("Aarav",  7,  4, "Calm and focused throughout.");
         attend("Priya",  1,  4, "Very relaxing and peaceful.");
