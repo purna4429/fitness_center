@@ -10,7 +10,7 @@ public class BookingSystemTest {
     void setUp() {
         Lesson.resetIdCounter();
         Booking.resetIdCounter();
-        system = new BookingSystem();
+    
     }
 
     @Test
