@@ -10,7 +10,7 @@ public class Member {
     public String getName() { return name; }
     public List<Booking> getBookings() { return bookings; }
 
-    public void addBooking(Booking b) { bookings.add(b); }
+
 
     public boolean hasConflict(Lesson lesson) {
         for (Booking b : bookings) {
