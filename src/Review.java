@@ -2,7 +2,7 @@ public class Review {
     private final Member member;
     private final Lesson lesson;
     private final int rating;
-    private final String comment;
+
 
     public Review(Member member, Lesson lesson, int rating, String comment) {
         if (rating < 1 || rating > 5) throw new IllegalArgumentException("Rating must be 1-5");
