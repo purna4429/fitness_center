@@ -6,7 +6,7 @@ public class Lesson {
     private static final int MAX_CAPACITY = 4;
 
     private final int id;
-    private final Exercise exercise;
+
     private final String day;
     private final String timeSlot;
     private final int weekNumber;
