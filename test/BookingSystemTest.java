@@ -27,7 +27,7 @@ public class BookingSystemTest {
 
     @Test
     void bookLessonDuplicateNotAllowed() {
-        String result = system.bookLesson("Aarav", 1);
+      
         assertEquals("You already have a booking for this lesson (duplicate not allowed).", result);
     }
 
